@@ -154,7 +154,7 @@ $(document).ready(function() {
 
 
   // Add item
-  $('.default-btn').click(function (event) {
+  $('.btn-a').click(function (event) {
     // alert('working');
     event.preventDefault();
     var name = $(this).data('name');
@@ -207,18 +207,6 @@ $(document).ready(function() {
   });
   displayCart();
 
-//////// ui script start /////////
-// Tabs Single Page
-$('.tab ul.tabs').addClass('active').find('> li:eq(0)').addClass('current');
-$('.tab ul.tabs li a').on('click', function (g) {
-    var tab = $(this).closest('.tab'), 
-    index = $(this).closest('li').index();
-    tab.find('ul.tabs > li').removeClass('current');
-    $(this).closest('li').addClass('current');
-    tab.find('.tab_content').find('div.tabs_item').not('div.tabs_item:eq(' + index + ')').slideUp();
-    tab.find('.tab_content').find('div.tabs_item:eq(' + index + ')').slideDown();
-    g.preventDefault();
-});
 
 // search function
 $('#search_field').on('keyup', function() {
@@ -276,5 +264,43 @@ return false;
 
 
 
+
+
+// move to top
+var btn = $('#button2');
+
+btn.on('click', function(e) {
+  e.preventDefault();
+  $('html, body').animate({scrollTop:0}, '300');
 });
 
+
+
+
+
+function onvalue(){
+let values = document.forms["form_value"]["fname"].value;
+document.getElementById("head_para").innerHTML = values;
+
+if (values == form_values){
+
+}else{
+  alert("form Must be fill")
+}
+
+return false;
+}
+
+
+});
+
+// login_form
+function hide_form(){
+  document.getElementById("login").style.display="none";
+  document.getElementById("sign_up").style.display="block";
+}
+
+function hide_form2(){
+  document.getElementById("sign_up").style.display="none";
+  document.getElementById("login").style.display="block";
+}
