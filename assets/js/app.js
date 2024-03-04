@@ -35,29 +35,6 @@ $(document).ready(function() {
   });
 
 
-  $('.m-silder').slick({
-      dots: true,
-      arrows: true,
-      infinite: true,
-      fade: true,
-      speed: 300,
-      slidesToShow: 1,
-      slidesToScroll: 1,
-      autoplay: true,
-      autoplaySpeed: 2000,
-      responsive: [
-      {
-          breakpoint: 825,
-          settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1,
-              infinite: true,
-              dots: true,
-              arrows:false
-          }
-      },
-      ]
-  });
 
 
 // cart
