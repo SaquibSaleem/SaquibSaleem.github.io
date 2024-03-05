@@ -326,4 +326,16 @@ function onvalue(){
       }
       }
 
+      function oncheck(){
+        let values = document.forms["form_checkout"]["fname","lname","lemail","ltel","lprovince","lcity","laddress,","lpostcode",""].value;
+        // document.getElementById("newsletter_message").innerHTML = values;
+        if (values == ""){
+          alert("Please fill out feild");
+          return false;
+        }if (values == values){
+          alert("Thank You for Placeing the Order with SFM Heaven Store");
+          return false;
+        }
+      }
+
   
