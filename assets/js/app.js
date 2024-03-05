@@ -267,7 +267,7 @@ return false;
 
 
 // move to top
-var btn = $('#button2');
+var btn = $('#button');
 
 btn.on('click', function(e) {
   e.preventDefault();
