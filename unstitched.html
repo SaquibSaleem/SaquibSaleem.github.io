@@ -57,7 +57,7 @@
                      <li><a href="new_arrival.html">New arrival</a></li>
                      <li><a href="woman.html">Woman</a></li>
                      <li><a href="men.html">Men</a></li>
-                     <li class="active"><a href="unstitched.html">Unstitched</a></li>
+                     <li><a href="unstitched.html">Unstitched</a></li>
                      <li><a href="special_offers.html">Special offers</a></li>
                      <li><a href="catalouge.html">Catalouge</a></li>
                   </ul>
@@ -143,7 +143,7 @@
             <div class="tab_content current active pt-45">
                <div class="tabs_item current">
                   <div class="row justify-content-center">
-                     <div class="col-lg-3 col-md-6">
+                     <div class="col-lg-3 col-md-6 wow fadeInLeft">
                         <div class="featured-item">
                            <div class="featured-item-img">
                               <a href="product.html">
@@ -167,7 +167,7 @@
                            </div>
                         </div>
                      </div>
-                     <div class="col-lg-3 col-md-6">
+                     <div class="col-lg-3 col-md-6 wow fadeInLeft">
                         <div class="featured-item">
                            <div class="featured-item-img">
                               <a href="product.html">
@@ -191,7 +191,7 @@
                            </div>
                         </div>
                      </div>
-                     <div class="col-lg-3 col-md-6">
+                     <div class="col-lg-3 col-md-6 wow fadeInRight">
                         <div class="featured-item">
                            <div class="featured-item-img">
                               <a href="product.html">
@@ -215,7 +215,7 @@
                            </div>
                         </div>
                      </div>
-                     <div class="col-lg-3 col-md-6">
+                     <div class="col-lg-3 col-md-6 wow fadeInRight">
                         <div class="featured-item">
                            <div class="featured-item-img">
                               <a href="product.html">
@@ -239,7 +239,7 @@
                            </div>
                         </div>
                      </div>
-                     <div class="col-lg-3 col-md-6">
+                     <div class="col-lg-3 col-md-6 wow fadeInLeft">
                         <div class="featured-item">
                            <div class="featured-item-img">
                               <a href="product.html">
@@ -263,7 +263,7 @@
                            </div>
                         </div>
                      </div>
-                     <div class="col-lg-3 col-md-6">
+                     <div class="col-lg-3 col-md-6 wow fadeInLeft">
                         <div class="featured-item">
                            <div class="featured-item-img">
                               <a href="product.html">
@@ -287,7 +287,7 @@
                            </div>
                         </div>
                      </div>
-                     <div class="col-lg-3 col-md-6">
+                     <div class="col-lg-3 col-md-6 wow fadeInRight">
                         <div class="featured-item">
                            <div class="featured-item-img">
                               <a href="product.html">
@@ -311,7 +311,7 @@
                            </div>
                         </div>
                      </div>
-                     <div class="col-lg-3 col-md-6">
+                     <div class="col-lg-3 col-md-6 wow fadeInRight">
                         <div class="featured-item">
                            <div class="featured-item-img">
                               <a href="product.html">
@@ -335,7 +335,7 @@
                            </div>
                         </div>
                      </div>
-                     <div class="col-lg-3 col-md-6">
+                     <div class="col-lg-3 col-md-6 wow fadeInLeft">
                         <div class="featured-item">
                            <div class="featured-item-img">
                               <a href="product.html">
@@ -359,7 +359,7 @@
                            </div>
                         </div>
                      </div>
-                     <div class="col-lg-3 col-md-6">
+                     <div class="col-lg-3 col-md-6 wow fadeInLeft">
                         <div class="featured-item">
                            <div class="featured-item-img">
                               <a href="product.html">
@@ -383,7 +383,7 @@
                            </div>
                         </div>
                      </div>
-                     <div class="col-lg-3 col-md-6">
+                     <div class="col-lg-3 col-md-6 wow fadeInRight">
                         <div class="featured-item">
                            <div class="featured-item-img">
                               <a href="product.html">
@@ -407,7 +407,7 @@
                            </div>
                         </div>
                      </div>
-                     <div class="col-lg-3 col-md-6">
+                     <div class="col-lg-3 col-md-6 wow fadeInRight">
                         <div class="featured-item">
                            <div class="featured-item-img">
                               <a href="product.html">
@@ -467,11 +467,11 @@
                </div>
                <div class="emails">
                   <i class="fa-solid fa-envelope"></i>
-                  <a href="#">sale@sfm.pk</a>
+                  <a href="mail:sale@sfm.com">sale@sfm.com</a>
                </div>
                <div class="phone_number">
                   <i class="fa-solid fa-phone"></i>
-                  <a href="#">+9221 3822 (7292)</a>
+                  <a href="+923 431228733">+923 4312 (28733)</a>
                </div>
               <div class="socal_icons">
                   <ul>
@@ -523,11 +523,12 @@
                <h6>Newsletter Signup</h6>
                <p>Subscribe to our newsletter and get 10% off your first purchase</p>
                <div class="nes">
-                  <form action="#">
+                  <form action="#" name="form_newsletter" method="post" onsubmit="return onvalue()">
                      <div class="ems">
-                        <input type="email" name="Email" class="form-control-foot"  placeholder="Email Address" id="">
+                        <p id="newsletter_message"></p>
+                        <input type="email" class="form-control-foot" id="Subscribe"  name="Subscribe" placeholder="Email Address" >
                         <div class="form_btn">
-                           <a name="" id="" class="btn-c" href="#" role="button">Subscribe</a>
+                           <input name="form" type="submit" class="btn-c" value="Subscribe">
                         </div>
                      </div>
                   </form>

@@ -109,7 +109,7 @@ form#demo-2{position:absolute;top:-20px;}
 .featured-item .featured-item-img a img:hover{scale:1.08;}
 .featured-item .content{padding:20px 15px;}
 .featured-item .content h3{margin-bottom:10px;}
-.featured-item .content h3 a{color:var(--titleColor);-webkit-transition:var(--transition);transition:var(--transition);font-weight:bold;font-size:14px;}
+.featured-item .content h3 a{color:var(--titleColor);-webkit-transition:var(--transition);transition:var(--transition);font-weight:bold;font-size:13px;}
 .featured-item .content .content-in{display:flex;align-items:center;justify-content:space-between;padding:12px 12px 10px;border-radius:3px;}
 .featured-item .content .content-in i{color:#ffcc00;}
 .featured-item .content .content-in span{font-size:15px;color:var(--titleColor);font-weight:500;}
@@ -239,7 +239,7 @@ footer{background:#e6e6e6;padding:50px 0px !important;height:67vh;}
 .newlettes.p7 p{margin-bottom:25px;color:#000;}
 .form-control-foot{display:block;width:100%;position:relative;padding:15px 15px;font-size:14px;font-weight:400;color:#495057;background-clip:padding-box;border:1px solid #000;border-radius:25px;transition:border-color .15s ease-in-out,box-shadow .15s ease-in-out;background:transparent;}
 .form-control-foot::placeholder{color:#495057;font-weight:600;}
-.form_btn{position:absolute;right:0;top:18px;}
+.form_btn{position:absolute;right:1px;top:4px;}
 .ems{position:relative;margin-bottom:20px;}
 .card_atm ul{display:flex;align-items:center;gap:20px;}
 .card_atm ul li a img{width:55px;}

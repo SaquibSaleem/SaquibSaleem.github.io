@@ -275,23 +275,6 @@ btn.on('click', function(e) {
 });
 
 
-
-
-
-function onvalue(){
-let values = document.forms["form_value"]["fname"].value;
-document.getElementById("head_para").innerHTML = values;
-
-if (values == form_values){
-
-}else{
-  alert("form Must be fill")
-}
-
-return false;
-}
-
-
 });
 
 // login_form
@@ -299,8 +282,21 @@ function hide_form(){
   document.getElementById("login").style.display="none";
   document.getElementById("sign_up").style.display="block";
 }
-
 function hide_form2(){
   document.getElementById("sign_up").style.display="none";
   document.getElementById("login").style.display="block";
 }
+
+
+// form custon validation
+function onvalue(){
+  let values = document.forms["form_newsletter"]["Subscribe"].value;
+  // document.getElementById("newsletter_message").innerHTML = values;
+  if (values == ""){
+    alert("Filled can't be empty");
+    return false;
+  }if (values == values){
+    alert("Thank You !");
+    return false;
+  }
+  }

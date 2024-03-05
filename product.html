@@ -32,61 +32,61 @@
     </script>
 </head>
 <header>
-    <div class="top-header">
-         <div class="container-flud">
-             <div class="row">
-                 <div class="col-md-12 text-right">
-                     <div class="marque">
-                   <marquee width="100%" direction="left" height="100px">season sale are coming soon !</marquee>
-                </div>
-                 </div>
-             </div>
-         </div>
-     </div>
-     <div class="main-header">
-         <div class="container">
-             <div class="menu-Bar">
-                 <span></span>
-                 <span></span>
-                 <span></span>
-             </div>
-             <div class="row align-items-center">
-                 <div class="col-md-2 text-left">
-                     <a href="index.html" class="logo">
-                   <div class="logo">
-                      <img src="assets/images/sfm.png" alt="">
-                   </div>
-                     </a>
-                 </div>
-                 <div class="col-md-8 text-right">
-                     <div class="menuWrap">
-                         <ul class="menu">
-                      <li><a href="new_arrival.html">New arrival</a></li>
-                      <li><a href="woman.html">Woman</a></li>
-                      <li><a href="men.html">Men</a></li>
-                      <li><a href="unstitched.html">Unstitched</a></li>
-                      <li><a href="special_offers.html">Special offers</a></li>
-                      <li><a href="catalouge.html">Catalouge</a></li>
-                   </ul>
-                     </div>
-                 </div>
-                 <div class="col-md-2 text-right">
-                <div class="user_account">
-                   <div class="users">
+   <div class="top-header">
+		<div class="container-flud">
+			<div class="row">
+				<div class="col-md-12 text-right">
+					<div class="marque">
+                  <marquee width="100%" direction="left" height="100px">season sale are coming soon !</marquee>
+               </div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="main-header">
+		<div class="container">
+			<div class="menu-Bar">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<div class="row align-items-center">
+				<div class="col-md-2 text-left">
+					<a href="index.html" class="logo">
+                  <div class="logo">
+                     <img src="assets/images/sfm.png" alt="">
+                  </div>
+					</a>
+				</div>
+				<div class="col-md-8 text-right">
+					<div class="menuWrap">
+						<ul class="menu">
+                     <li><a href="new_arrival.html">New arrival</a></li>
+                     <li><a href="woman.html">Woman</a></li>
+                     <li><a href="men.html">Men</a></li>
+                     <li><a href="unstitched.html">Unstitched</a></li>
+                     <li><a href="special_offers.html">Special offers</a></li>
+                     <li><a href="catalouge.html">Catalouge</a></li>
+                  </ul>
+					</div>
+				</div>
+				<div class="col-md-2 text-right">
+               <div class="user_account">
+                  <div class="users">
                      <a href="login_form.html"><i class="fa-solid fa-user"></i></a>
-                   </div>
-                   <div class="cart" id="navbarSupportedContent">
-                     
-                      <button type="button" class="btn btn-success my-2 my-sm-0" data-toggle="modal" data-target="#staticBackdrop">
-                         <i class="fas fa-shopping-cart total-count"></i>
-                     </button>
-                </div>
-  
-                 </div>
-             </div>
-         </div>
-     </div>
- </header>
+                  </div>
+                  <div class="cart" id="navbarSupportedContent">
+                    
+                     <button type="button" class="btn btn-success my-2 my-sm-0" data-toggle="modal" data-target="#staticBackdrop">
+                        <i class="fas fa-shopping-cart total-count"></i>
+                    </button>
+               </div>
+ 
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
  <a id="button"></a>
  <!-- Modal -->
  <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
@@ -257,11 +257,11 @@
                </div>
                <div class="emails">
                   <i class="fa-solid fa-envelope"></i>
-                  <a href="#">sale@sfm.pk</a>
+                  <a href="mail:sale@sfm.com">sale@sfm.com</a>
                </div>
                <div class="phone_number">
                   <i class="fa-solid fa-phone"></i>
-                  <a href="#">+9221 3822 (7292)</a>
+                  <a href="+923 431228733">+923 4312 (28733)</a>
                </div>
               <div class="socal_icons">
                   <ul>
@@ -313,11 +313,12 @@
                <h6>Newsletter Signup</h6>
                <p>Subscribe to our newsletter and get 10% off your first purchase</p>
                <div class="nes">
-                  <form action="#">
+                  <form action="#" name="form_newsletter" method="post" onsubmit="return onvalue()">
                      <div class="ems">
-                        <input type="email" name="Email" class="form-control-foot"  placeholder="Email Address" id="">
+                        <p id="newsletter_message"></p>
+                        <input type="email" class="form-control-foot" id="Subscribe"  name="Subscribe" placeholder="Email Address" >
                         <div class="form_btn">
-                           <a name="" id="" class="btn-c" href="#" role="button">Subscribe</a>
+                           <input name="form" type="submit" class="btn-c" value="Subscribe">
                         </div>
                      </div>
                   </form>
