@@ -300,3 +300,30 @@ function onvalue(){
     return false;
   }
   }
+
+  function onlogin(){
+    let values = document.forms["form_login"]["User_Name","Password"].value;
+    // document.getElementById("newsletter_message").innerHTML = values;
+    if (values == ""){
+      alert("Please fill out UserName & Password");
+      return false;
+    }if (values == values){
+      alert("WellCome Back !");
+      return false;
+    }
+    }
+
+
+    function on_submit(){
+      let values = document.forms["form_submit"]["First_name","Last_name","Email_address","Password","Confirm_Password","country"].value;
+      // document.getElementById("newsletter_message").innerHTML = values;
+      if (values == ""){
+        alert("Please fill out feild");
+        return false;
+      }if (values == values){
+        alert("Thank You for Sign Up");
+        return false;
+      }
+      }
+
+  
