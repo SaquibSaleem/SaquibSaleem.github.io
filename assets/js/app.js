@@ -264,8 +264,6 @@ return false;
 
 
 
-
-
 // move to top
 var btn = $('#button');
 
@@ -296,7 +294,7 @@ function onvalue(){
     alert("Filled can't be empty");
     return false;
   }if (values == values){
-    alert("Thank You !");
+    alert("Thanks for your Subscribtion");
     return false;
   }
   }
@@ -305,10 +303,10 @@ function onvalue(){
     let values = document.forms["form_login"]["User_Name","Password"].value;
     // document.getElementById("newsletter_message").innerHTML = values;
     if (values == ""){
-      alert("Please fill out UserName & Password");
+      alert("Please filled out UserName & Password");
       return false;
     }if (values == values){
-      alert("WellCome Back !");
+      alert("You are WellCome !");
       return false;
     }
     }
@@ -318,22 +316,22 @@ function onvalue(){
       let values = document.forms["form_submit"]["First_name","Last_name","Email_address","Password","Confirm_Password","country"].value;
       // document.getElementById("newsletter_message").innerHTML = values;
       if (values == ""){
-        alert("Please fill out feild");
+        alert("Please filled out Form");
         return false;
       }if (values == values){
-        alert("Thank You for Sign Up");
+        alert("Thank You! Your Profile has been created");
         return false;
       }
       }
 
       function oncheck(){
-        let values = document.forms["form_checkout"]["fname","lname","lemail","ltel","lprovince","lcity","laddress,","lpostcode",""].value;
+        let values = document.forms["form_checkout"]["fname","lname","lemail","ltel","lprovince","lcity","laddress,","lpostcode","payment"].value;
         // document.getElementById("newsletter_message").innerHTML = values;
         if (values == ""){
-          alert("Please fill out feild");
+          alert("Please filled out Form");
           return false;
         }if (values == values){
-          alert("Thank You for Placeing the Order with SFM Heaven Store");
+            window.open("thankyou.html");
           return false;
         }
       }
